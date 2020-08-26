@@ -8,17 +8,23 @@ Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want 
 
 ## Get Started
 
-1. **Fork (do not clone) this repository.** Click the Fork button in the upper-right hand corner of the page.
-1. Clone YOUR fork of this repository to your local machine with `git clone`.
+### Set up your repository
+1. Create your own repo called `webpack-template`
+1. **CLONE (do not fork) this repository.** Clone this repository to your local machine with `git clone`.
+1. Change the `remote` on your local to the repo you just created (you should know how to do this. If not, google it!)
+1. Push the contents from your local machine up to your repo master branch.
+
+### Starting the Project
 1. Open the `package.json` file and change the `name` property to the name of your application, and `author` to  your name.
-1. From your command line, be in the root directory and run `npm install`.
+1. From your command line, be in the root directory and run `npm install` OR `npm i` for short.
 1. To start your application, run `npm start`
 
 ### If you see this, you are set to go!
 ![LIT](./documentation/lit-screen.png)
 
-## Other Important Tidbits
+**NOTE:** Changes you make to the project will make the browser reload on save...no more hard refresh unless something goes wrong.
 
+## Other Important Tidbits
 ### Console messages
 From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable **_(debugger is WAY better though)_** while developing, but will throw a warning in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however.
 
@@ -39,8 +45,6 @@ document.getElementById('cat').innerHTMl = domString;
 ```js
 import '../styles/main.scss';
 
-const $ = require('jquery');
-
 const init = () => {
   $('#app').html('<h1>HELLO! You are up and running!</h1>');
   console.log('YOU ARE UP AND RUNNING!');
@@ -57,10 +61,10 @@ import axios from 'axios';
 const examplePromise = () => {
   axios.get('http://localhost:3001/example')
     .then((data) => {
-      console.log(data);
+      console.warn(data);
     })
     .catch((error) => {
-      console.log(error);
+      console.error(error);
     });
 });
 ```
