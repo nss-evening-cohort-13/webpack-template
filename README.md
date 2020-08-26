@@ -30,6 +30,20 @@ let domString = `<img src=${cat} alt="picture of a cat"/>`;
 document.getElementById('cat').innerHTMl = domString;
 ```
 
+### Importing CSS/SCSS
+```js
+import '../styles/main.scss';
+
+const $ = require('jquery');
+
+const init = () => {
+  $('#app').html('<h1>HELLO! You are up and running!</h1>');
+  console.log('YOU ARE UP AND RUNNING!');
+};
+
+init();
+```
+
 ### Using Axios
 > For every file you will need to make an XHR request in, you will need to require Axios
 ```js
