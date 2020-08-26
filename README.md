@@ -20,7 +20,7 @@ Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want 
 ## Other Important Tidbits
 
 ### Console messages
-From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable while developing, but will throw a warning in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however.
+From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable **_(debugger is WAY better though)_** while developing, but will throw a warning in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however.
 
 ![not acceptable](./documentation/notacceptable.png)
 
