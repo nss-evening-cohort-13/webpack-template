@@ -19,6 +19,11 @@ Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want 
 
 ## Other Important Tidbits
 
+### Console messages
+From this time forward, you will be expected to have a clean console in order for your assignments to be approved. This means that the use of `console.log` is acceptable while developing, but will throw a warning in your console like the image below, but all `logs` will have to be removed. You may use `console.error` and `console.warn` in your code however.
+
+![not acceptable](./documentation/notacceptable.png)
+
 ### Including Images with Webpack
 If you have a folder of local images that you want to load into your code things get a little strange with webpack.  Remember the only way webpack knows about assets is if they are imported into your javascript files.  Even our CSS is not added until those files are imported into our javascript files.  Below is some sample code for how to load a local image file into your project
 
