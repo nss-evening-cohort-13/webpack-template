@@ -49,4 +49,4 @@ const examplePromise = () => {
 ### Deploying on Netlify
 
 - Build Command: `npm run build`
-- Deployment Folder: `build`
+- Publish directory: `build`
