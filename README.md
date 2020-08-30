@@ -9,15 +9,15 @@ Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want 
 ## Get Started
 
 ### Use Template
-#### To get started, click the GREEN "Use this Template" button at the top of the repo
+#### 1. To get started, click the GREEN "Use this Template" button at the top of the repo
 ![Use this Template](./documentation/usetemplate.png)
 
-#### Make sure YOUR github account is selected in the dropdown and name your project
+#### 2. Make sure YOUR github account is selected in the dropdown and name your project
 ![Create Project](./documentation/createproject.png)
 
-- Click the **GREEN** "Create repository from template" button
-- Clone your new repo to your local machine
-- Start working!
+3. Click the **GREEN** "Create repository from template" button
+4. Clone your new repo to your local machine
+5. Start working!
 
 ### Starting the Project
 1. Open the `package.json` file and change the `name` property to the name of your application, and `author` to  your name.
