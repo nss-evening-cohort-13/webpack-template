@@ -4,7 +4,8 @@
 
 Webpack is a task runner and a module bundler. It originally started as a module bundler. This means that it takes all of your separate Javascript modules and bundles them together into a single file. Webpack also automates some of the tasks that we have to run every time we change the code. It will automate these tasks so that we are not typing in the same commands every single time.
 
-Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want to explore more.
+- Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want to explore more.
+- [Info on our Webpack Config](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-2-patterns-and-tools/chapters/webpack-configure.md)
 
 ## Get Started
 
