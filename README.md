@@ -15,6 +15,7 @@ Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want 
 #### Make sure YOUR github account is selected in the dropdown and name your project
 ![Create Project](./documentation/createproject.png)
 
+- Click the **GREEN** "Create repository from template" button
 - Clone your new repo to your local machine
 - Start working!
 
