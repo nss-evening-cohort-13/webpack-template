@@ -8,11 +8,15 @@ Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want 
 
 ## Get Started
 
-### Set up your repository
-1. Create your own repo called `webpack-template`
-1. **CLONE (do not fork) this repository.** Clone this repository to your local machine with `git clone`.
-1. Change the `remote` on your local to the repo you just created (you should know how to do this. If not, google it!)
-1. Push the contents from your local machine up to your repo master branch.
+### Use Template
+#### To get started, click the GREEN "Use this Template" button at the top of the repo
+![Use this Template](./documentation/usetemplate.png)
+
+#### Make sure YOUR github account is selected in the dropdown and name your project
+![Create Project](./documentation/createproject.png)
+
+- Clone your new repo to your local machine
+- Start working!
 
 ### Starting the Project
 1. Open the `package.json` file and change the `name` property to the name of your application, and `author` to  your name.
