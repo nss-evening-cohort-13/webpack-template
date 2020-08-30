@@ -19,7 +19,7 @@ Visit the [Webpack documentation](https://webpack.js.org/concepts/) if you want 
 4. Clone your new repo to your local machine
 5. Start working!
 
-### Starting the Project
+## Starting the Project
 1. Open the `package.json` file and change the `name` property to the name of your application, and `author` to  your name.
 1. From your command line, be in the root directory and run `npm install` OR `npm i` for short.
 1. To start your application, run `npm start`
